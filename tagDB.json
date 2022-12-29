@@ -1,0 +1,2655 @@
+[
+    {
+        "id": 1,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(accr-denied)",
+        "ttip": "Credenciamento negado"
+    },
+    {
+        "id": 2,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(accr-informations)",
+        "ttip": "Dúvidas gerais de credenciamento"
+    },
+    {
+        "id": 3,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(bank-account-update)",
+        "ttip": "Para troca de domicílio bancário pelo CRM/Chat"
+    },
+    {
+        "id": 4,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(change-ownership-analysis)",
+        "ttip": "Referente ao processo de análise inicial para a troca de titularidade"
+    },
+    {
+        "id": 5,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(change-ownership-data-collect)",
+        "ttip": "Para o início do processo de troca de CNPJ/Titularidade após a validação inicial"
+    },
+    {
+        "id": 6,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(change-ownership-swap-pos)",
+        "ttip": "Troca de POS entre cadastros após troca de titularidade aprovada"
+    },
+    {
+        "id": 7,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(change-ownership-triage)",
+        "ttip": "Para a triagem inicial antes da troca de titularidade"
+    },
+    {
+        "id": 8,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(partnership-infinitepay)",
+        "ttip": "Quando usuários solicitam parcerias de vários tipos conosco"
+    },
+    {
+        "id": 9,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(rf-inactive)",
+        "ttip": "Usada quando o CNPJ está baixado na Receita Federal"
+    },
+    {
+        "id": 10,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(legal-representative-validation)",
+        "ttip": "Para validações de representante legal com clientes logados"
+    },
+    {
+        "id": 11,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(update-email)",
+        "ttip": "Usuário logado solicita alteração de e-mail"
+    },
+    {
+        "id": 12,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(update-phone)",
+        "ttip": "Usuário logado solicita alteração de telefone"
+    },
+    {
+        "id": 13,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(user-acc-info-update)",
+        "ttip": "Para atualizações cadastrais que envolvam o Backoffice, como alteração de RL "
+    },
+    {
+        "id": 14,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(legal-representative-update)",
+        "ttip": "Para quando há a alteração do representante legal"
+    },
+    {
+        "id": 15,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(wrong-tid-info)",
+        "ttip": "Quando as informações entre o portal da ADIQ e nosso EC estão divergentes, causando erro em vendas"
+    },
+    {
+        "id": 16,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(cnae-alteration)",
+        "ttip": "Alteração de CNAE, que fica com o BKO"
+    },
+    {
+        "id": 17,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(accreditation)",
+        "tuniq": "(change-ownership-informations)",
+        "ttip": "Quando o EC quer informações sobre, mas não iniciou a troca de titularidade"
+    },
+    {
+        "id": 18,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(app)",
+        "tuniq": "(login-update-cellphone)",
+        "ttip": "Usado para casos onde o EC solicita alteração do telefone do app estando deslogado/sem acesso"
+    },
+    {
+        "id": 19,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(app)",
+        "tuniq": "(establishment-name-change)",
+        "ttip": "Para troca de nome fantasia e/ou handles"
+    },
+    {
+        "id": 20,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(app)",
+        "tuniq": "(password-reset)",
+        "ttip": "Casos em que o cliente esquece a senha cadastrada para acesso no aplicativo."
+    },
+    {
+        "id": 21,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(app)",
+        "tuniq": "(change-user-info)",
+        "ttip": "Para dúvidas ou solicitação de alterações de dados que podem ser feitas pelo app"
+    },
+    {
+        "id": 22,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(bank-account)",
+        "tuniq": "(unsupported-bank)",
+        "ttip": "Para bancos não aceitos pela InfinitePay"
+    },
+    {
+        "id": 23,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(bank-account)",
+        "tuniq": "(incorrect-bank-account)",
+        "ttip": "Conta bancária cadastrada de forma incorreta ou cadastro de conta PF."
+    },
+    {
+        "id": 24,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(bank-account)",
+        "tuniq": "(hb-pending-validation)",
+        "ttip": "Para quando precisamos validar a UNICO de um EC para adicionar ao homebanking"
+    },
+    {
+        "id": 25,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(lgpd)",
+        "tuniq": "(lgpd-cardholder)",
+        "ttip": "Macro utilizada para solicitação de inativação de dados de cardholder em nosso banco."
+    },
+    {
+        "id": 26,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(lgpd)",
+        "tuniq": "(lgpd-merchant)",
+        "ttip": "Macro utilizada para solicitação de inativação de dados de merchant em nosso banco."
+    },
+    {
+        "id": 27,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(logged-out)",
+        "tuniq": "(logged-out)(chat)",
+        "ttip": "Cliente em contato via chat deslogado"
+    },
+    {
+        "id": 28,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(logged-out)",
+        "tuniq": "(logged-out)(email)",
+        "ttip": "Cliente em contato por e-mail diferente do que está vinculado ao cadastro"
+    },
+    {
+        "id": 29,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(logged-out)",
+        "tuniq": "(logged-out)(has-offenses)",
+        "ttip": "Instruções de contato via e-mail para cliente que não tem acesso ao login no app"
+    },
+    {
+        "id": 30,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(logged-out)",
+        "tuniq": "(logged-out)(no-offenses)",
+        "ttip": "Instruções de abertura de chat logado para cliente que tem acesso ao login no app"
+    },
+    {
+        "id": 31,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(logged-out)",
+        "tuniq": "(pj-in-ch-account)",
+        "ttip": "Para casos onde nosso EC loga na conta de Cardholder e não percebe, gerando problemas"
+    },
+    {
+        "id": 32,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(logged-out)",
+        "tuniq": "(no-access)",
+        "ttip": "Para ECs que estão deslogados"
+    },
+    {
+        "id": 33,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(monitoring)",
+        "tuniq": "(merchant-blocked)",
+        "ttip": "Para casos onde o estabelecimento foi descredenciado/blocked"
+    },
+    {
+        "id": 34,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(monitoring)",
+        "tuniq": "(phished-user)",
+        "ttip": "Para usuários que caíram em golpes ou tiveram dados roubados"
+    },
+    {
+        "id": 35,
+        "marea": "ACCREDITATION",
+        "mareat": "(accreditation)(monitoring)",
+        "tuniq": "(phishing-attemp)",
+        "ttip": "Para usuários que sofreram tentativa de golpe, mas felizmente não caíram"
+    },
+    {
+        "id": 36,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(change-adress)(nf-issued)",
+        "ttip": "Alteração de endereço com nota fiscal emitida"
+    },
+    {
+        "id": 37,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(log-informations)",
+        "ttip": "Informações gerais sobre a entrega que não se enquadrem nas outras tags de logistics"
+    },
+    {
+        "id": 38,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(log-interception)",
+        "ttip": "Interceptação de entrega."
+    },
+    {
+        "id": 39,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(log-tracking)",
+        "ttip": "Rastreio do pedido."
+    },
+    {
+        "id": 40,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(re-delivery-unaccomplished)",
+        "ttip": "Insucesso na reentrega"
+    },
+    {
+        "id": 41,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(change-address)(no-nf)",
+        "ttip": "Alterações de endereço sem NF"
+    },
+    {
+        "id": 42,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(change-address)(nf-issued)",
+        "ttip": "Alterações de endereço com NF"
+    },
+    {
+        "id": 43,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(send-supply)(charger)",
+        "ttip": "Envio de insumo - carregador"
+    },
+    {
+        "id": 44,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(send-supply)(chip-algar)",
+        "ttip": "Envio de insumo - chip Algar"
+    },
+    {
+        "id": 45,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(send-supply)(chip-hologram)",
+        "ttip": "Envio de insumo - chip Hologram"
+    },
+    {
+        "id": 46,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(send-supply)(battery)",
+        "ttip": "Envio de insumo - Bateria"
+    },
+    {
+        "id": 47,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(send-supply)(battery-cover)",
+        "ttip": "Envio de insumo - tampa de bateria"
+    },
+    {
+        "id": 48,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(send-suply)(paper-roll-cover)",
+        "ttip": "Envio de insumo - tampa de impressora"
+    },
+    {
+        "id": 49,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(send-supply)(table-charger)",
+        "ttip": "Envio de insumo - carregador de mesa"
+    },
+    {
+        "id": 50,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(send-supply)(paper-roll)",
+        "ttip": "Envio de insumo - bobina"
+    },
+    {
+        "id": 51,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(resend)(confrontation)",
+        "ttip": "Reenvio gerado após acareação"
+    },
+    {
+        "id": 52,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(resend)(lost)",
+        "ttip": "Pacote devolvido extraviado ou recuperado"
+    },
+    {
+        "id": 53,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(resend)(product-problem)",
+        "ttip": "Encomenda danificada, produto avariado ou produto divergente"
+    },
+    {
+        "id": 54,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(resend)(re-delivery-error)",
+        "ttip": "Reenvio após erro na reentrega"
+    },
+    {
+        "id": 55,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(re-delivery)(address-error)",
+        "ttip": "Número inexistente, endereço insuficiente, endereço desconhecid ou CEP errado"
+    },
+    {
+        "id": 56,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(re-delivery)(absent-receiver)",
+        "ttip": "Cliente se mudou, destinatário desconhecido no endereço ou local fechado"
+    },
+    {
+        "id": 57,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(re-delivery)(unavailable-area)",
+        "ttip": "Zona rural, praça não atendida ou área de risco"
+    },
+    {
+        "id": 58,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(re-delivery)(third-attempt-error)",
+        "ttip": "Erro na terceira tentativa de entrega"
+    },
+    {
+        "id": 59,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(re-delivery)(refused-delivery)",
+        "ttip": "Recusado port./sind ou recusado"
+    },
+    {
+        "id": 60,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(delivery-attempt)(attempt-sequoia)",
+        "ttip": "Problemas mecânicos, chuvas torrenciais ou lugar não visitado"
+    },
+    {
+        "id": 61,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(delivery-attempt)(attempt-client)",
+        "ttip": "Destinatário ausente"
+    },
+    {
+        "id": 62,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(post-office)(delivery-attempt)",
+        "ttip": "Tentativa de entrega pelos correios"
+    },
+    {
+        "id": 63,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(pos-collection-wo-swap)",
+        "ttip": "Casos onde precisamos abrir coletas sem envio/troca de POS"
+    },
+    {
+        "id": 64,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(pos-collection)",
+        "ttip": "Para coleta de POS e também para POS duplicada"
+    },
+    {
+        "id": 65,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(error-nf)",
+        "ttip": "Quando a NF não é gerada por algum motivo e portanto a DO não existe ou quando possui pendência na SEFAZ"
+    },
+    {
+        "id": 66,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(delayed-delivery)",
+        "ttip": "Para casos onde a entrega do EC está atrasada"
+    },
+    {
+        "id": 67,
+        "marea": "LOGISTICS",
+        "mareat": "(delivery)(logistics)",
+        "tuniq": "(confrontation)",
+        "ttip": "Acareação de logística"
+    },
+    {
+        "id": 68,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(authorization)",
+        "tuniq": "(denied-monitoring-informations)",
+        "ttip": "Explicação sobre venda para parentes e a possibilidade de recusa de transações consideradas atípicas"
+    },
+    {
+        "id": 69,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(authorization)",
+        "tuniq": "(auth-code-information)",
+        "ttip": "Casos onde o cliente solicita o código AUT (auth) da venda para uso em relatórios externos"
+    },
+    {
+        "id": 70,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pix)",
+        "tuniq": "(smart)(pix-informations)",
+        "ttip": "Instruções para realização de venda via PIX na POS."
+    },
+    {
+        "id": 71,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(activation-failed)",
+        "ttip": "Casos de workflow de falha na ativação."
+    },
+    {
+        "id": 72,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(buy-second-pos)",
+        "ttip": "Informações sobre aquisição de segunda POS."
+    },
+    {
+        "id": 73,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(connection-issues)(wifi)",
+        "ttip": "Casos de workflow de problema de conexão via Wifi"
+    },
+    {
+        "id": 74,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(p2)(activation)",
+        "ttip": "Instruções de ativação de POS modelo p2"
+    },
+    {
+        "id": 75,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(p2)(battery-issues)",
+        "ttip": "Workflow de problema de bateria na P2"
+    },
+    {
+        "id": 76,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(p2)(cache-cleaning)",
+        "ttip": "Processo de limpeza de cache na p2"
+    },
+    {
+        "id": 77,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(p2-informations)",
+        "ttip": "Informações gerais sobre a P2"
+    },
+    {
+        "id": 78,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(pos-swap)",
+        "ttip": "Chat em que foi necessário solicitar troca de POS"
+    },
+    {
+        "id": 79,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(printing-issues)",
+        "ttip": "Casos de workflow de falha na impressão"
+    },
+    {
+        "id": 80,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(roller-paper-informations)",
+        "ttip": "Informações gerais sobre bobinas"
+    },
+    {
+        "id": 81,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(s920-p2)(battery-issues)",
+        "ttip": "Casos de workflow de POS não liga (apenas p2 e s920)"
+    },
+    {
+        "id": 82,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(s920)(battery-issues)",
+        "ttip": "Para o Workflow de problemas de bateria da s920 que usamos em notas"
+    },
+    {
+        "id": 83,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(s920)(battery-triage)",
+        "ttip": "Processo de triagem de problemas na bateria da s920."
+    },
+    {
+        "id": 84,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(s920)(connection-issues)(chip)",
+        "ttip": "Casos de workflow de problemas de conexão via chip na s920"
+    },
+    {
+        "id": 85,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(s920)(connection-issues)(wifi)(chip)",
+        "ttip": "Relacionado ao problema da tarja amarela na s920"
+    },
+    {
+        "id": 86,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(s920-informations)",
+        "ttip": "Solicitação do Serial Number (SN) da s920"
+    },
+    {
+        "id": 87,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(s920)(pix-informations)",
+        "ttip": "Cliente perguntando sobre venda via PIX/QR Code na s920"
+    },
+    {
+        "id": 88,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(s920)(software-charge)",
+        "ttip": "Carga de sistema na POS s920"
+    },
+    {
+        "id": 89,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(s920)(update)",
+        "ttip": "Informando ao cliente que sua s920 precisa ser atualizada e setando expectativa de tempo"
+    },
+    {
+        "id": 90,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(send-logs)",
+        "ttip": "Instruções para envio de logs da máquina"
+    },
+    {
+        "id": 91,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(smart)(activation-information)",
+        "ttip": "Passo a passo de ativação de POS modelo Smart (exceto gif)"
+    },
+    {
+        "id": 92,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(smart)(battery-issues)",
+        "ttip": "Casos de workflow de bateria descarregando muito rápido (apenas modelos Smart)"
+    },
+    {
+        "id": 93,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(smart)(connection-informations)(wifi)",
+        "ttip": "Instruções de configuração do wifi em POS modelo Smart"
+    },
+    {
+        "id": 94,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(smart)(connection-issues)(chip)(cw)",
+        "ttip": "Casos de workflow de problemas de conexão via chip (apenas modelos Smart, chip CW)"
+    },
+    {
+        "id": 95,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(smart)(update)",
+        "ttip": "Instruções de atualização de POS Smart"
+    },
+    {
+        "id": 96,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(touchscreen-impaired)",
+        "ttip": "Casos de workflow de problemas no touchscreen."
+    },
+    {
+        "id": 97,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(typed-sale)",
+        "ttip": "Informações sobre venda digitada"
+    },
+    {
+        "id": 98,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(warranty-informations)",
+        "ttip": "Questões sobre a garantia de POS"
+    },
+    {
+        "id": 99,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(x990)(battery-issues)",
+        "ttip": "Solicitação de dados de consumo da bateria de POS x990"
+    },
+    {
+        "id": 100,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(x990)(cache-cleaning)",
+        "ttip": "Processo de limpeza de cache na x990."
+    },
+    {
+        "id": 101,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(x990-informations)",
+        "ttip": "Solicitação do Serial Number (SN) da x990."
+    },
+    {
+        "id": 102,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(x990)(timezone)",
+        "ttip": "Instruções de ajuste do fuso horário da máquina para regiões fora do horário de Brasília."
+    },
+    {
+        "id": 103,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(x990)(timezone)(gmt-3)",
+        "ttip": "Instruções de ajuste do fuso horário da máquina para regiões que seguem o horário de Brasília"
+    },
+    {
+        "id": 104,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(x990)(deleted-app)",
+        "ttip": "ECs que deletaram o app da InfinitePay de sua x990"
+    },
+    {
+        "id": 105,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(p2)(deleted-app)",
+        "ttip": "ECs que deletaram o app da InfinitePay de sua P2"
+    },
+    {
+        "id": 106,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(s920)(keyboard-issues)",
+        "ttip": "Problemas no teclado físico da s920"
+    },
+    {
+        "id": 107,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(p2)(slow-or-freezing)",
+        "ttip": "P2 lenta ou travando"
+    },
+    {
+        "id": 108,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(x990)(slow-or-freezing)",
+        "ttip": "x990 lenta ou travando"
+    },
+    {
+        "id": 109,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(s920)(slow-or-freezing)",
+        "ttip": "s920 lenta ou travando"
+    },
+    {
+        "id": 110,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(promotion-upgrade-pos)",
+        "ttip": "Para upgrades de POS"
+    },
+    {
+        "id": 111,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(chip-hologram-free-exchange)",
+        "ttip": "Para casos onde enviamos um chip Algar gratuito para chips Hologram desativados"
+    },
+    {
+        "id": 112,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(s920)(ped-tampered)",
+        "ttip": "PED Tamper em s920"
+    },
+    {
+        "id": 113,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(x990)(ped-tampered)",
+        "ttip": "PED Tamper em x990"
+    },
+    {
+        "id": 114,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(p2)(ped-tampered)",
+        "ttip": "PED Tamper em p2"
+    },
+    {
+        "id": 115,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(swapped-pos-activation)",
+        "ttip": "Para quando o nosso EC recebe a POS de troca, mas não consegue ativá-la"
+    },
+    {
+        "id": 116,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(internal-WF)(battery-issues)",
+        "ttip": "Para quando abrimos o WF interno (de notas) para validação do Guardian sobre casos de Bateria"
+    },
+    {
+        "id": 117,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(internal-WF)(ped-tampered)",
+        "ttip": "Para quando abrimos o WF interno (de notas) para validação do Guardian sobre casos de Ped Tamper"
+    },
+    {
+        "id": 118,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(p2)(configuration-issue)",
+        "ttip": "Para erros na P2 gerados devido configurações alteradas (ex: tamanho do texto)"
+    },
+    {
+        "id": 119,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(x990)(configuration-issue)",
+        "ttip": "Para erros na x990 gerados devido configurações alteradas (ex: tamanho do texto)"
+    },
+    {
+        "id": 120,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(deactivated-chip)",
+        "ttip": "Para casos de chips inativados"
+    },
+    {
+        "id": 121,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(permanent-chip-deactivation)",
+        "ttip": "Para casos de chips inativados permanentemente, conforme anúncio do Luis Rosa"
+    },
+    {
+        "id": 122,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(smart-hardware-test)",
+        "ttip": "Para quando solicitamos o teste de hardware das POS smart (00 77777 7777)"
+    },
+    {
+        "id": 123,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(p2)(connection-issues)(chip)(proprio)",
+        "ttip": "Problemas gerais de conexão via chip na P2 (chip próprio)"
+    },
+    {
+        "id": 124,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(x990)(connection-issues)(chip)(proprio)",
+        "ttip": "Problemas gerais de conexão via chip na X990 (chip próprio)"
+    },
+    {
+        "id": 125,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(smart)(connection-informations)(chip)(proprio)",
+        "ttip": "Problemas gerais de conexão via chip (chip próprio)"
+    },
+    {
+        "id": 126,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(p2)(connection-issues)(chip-nano)",
+        "ttip": "Para caso de problemas com chips no slot errado da P2"
+    },
+    {
+        "id": 127,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(chip-exchange-notification-18-11)",
+        "ttip": "Uso exclusivo da notificação errôena sobre troca de chip do dia 18/11"
+    },
+    {
+        "id": 128,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(no-SIM-POS-dispute)",
+        "ttip": "Cliente reclama do recebimento da máquina sem chip"
+    },
+    {
+        "id": 129,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(unrecoverable-pos)",
+        "ttip": "Para POS irrecuperáveis, mas sem mau uso. (Ex: roubo, enchentes, etc)"
+    },
+    {
+        "id": 130,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(misused-pos)",
+        "ttip": "Para POS danificadas por mau uso"
+    },
+    {
+        "id": 131,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(pos)(card-sale-tutorial)",
+        "ttip": "Para tutorial ou dúvida sobre como vender usando cartões numa POS"
+    },
+    {
+        "id": 132,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(pos)(nfc-sale-tutorial)",
+        "ttip": "Para tutorial ou dúvida sobre como vender usando aproximação numa POS"
+    },
+    {
+        "id": 133,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(p2)(connection)(chip)(cw)",
+        "ttip": "Para problemas com chip nosso (Algar) na P2"
+    },
+    {
+        "id": 134,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(p2)(connection)(chip)(proprio)",
+        "ttip": "Para problemas com chip próprio na P2"
+    },
+    {
+        "id": 135,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(x990)(connection)(chip)(cw)",
+        "ttip": "Para problemas com chip nosso (Algar) na X990"
+    },
+    {
+        "id": 136,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(x990)(connection)(chip)(proprio)",
+        "ttip": "Para problemas com chip próprio na x990"
+    },
+    {
+        "id": 137,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(pos)",
+        "tuniq": "(pos)(nfc-informations)",
+        "ttip": "Para dúvidas gerais do funcionamento da função NFC nas POSes"
+    },
+    {
+        "id": 138,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(refund)",
+        "tuniq": "(billing-refund)",
+        "ttip": "Cliente que solicita cancelamento de venda mas tem billing pendente."
+    },
+    {
+        "id": 139,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(refund)",
+        "tuniq": "(enough-funds)",
+        "ttip": "Confirmação de cancelamento de venda para cliente que tem recebíveis suficientes a serem descontados"
+    },
+    {
+        "id": 140,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(refund)",
+        "tuniq": "(insufficient-funds)",
+        "ttip": "Cliente sem recebíveis suficientes para solicitação de cancelamento de venda"
+    },
+    {
+        "id": 141,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(refund)",
+        "tuniq": "(refund-informations)",
+        "ttip": "Informações sobre prazo e fluxo de estorno de vendas canceladas"
+    },
+    {
+        "id": 142,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(refund)",
+        "tuniq": "(transaction-refund-interest)",
+        "ttip": "Cliente que solicita cancelamento de uma venda"
+    },
+    {
+        "id": 143,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(refund)",
+        "tuniq": "(transfer-cw-details)",
+        "ttip": "Dados da conta bancária da CW para clientes que optem por fazer transferência ao solicitar cancelamento de venda"
+    },
+    {
+        "id": 144,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(refund)",
+        "tuniq": "(d0-refund-request)",
+        "ttip": "Interesse em cancelamento de venda em plano d+0"
+    },
+    {
+        "id": 145,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(refund)",
+        "tuniq": "(d0-refund-information)",
+        "ttip": "Informações sobre cancelamento de venda em plano d+0"
+    },
+    {
+        "id": 146,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(refund)",
+        "tuniq": "(pos)(transaction-refund)",
+        "ttip": "Para dúvidas sobre como cancelar vendas na POS"
+    },
+    {
+        "id": 147,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(refund)",
+        "tuniq": "(transaction-refund-request)",
+        "ttip": "Confirmação de solicitação de cancelamento de venda"
+    },
+    {
+        "id": 148,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(sales)",
+        "tuniq": "(pos-expensive)",
+        "ttip": "Explicação sobre a diferença de preço da segunda POS"
+    },
+    {
+        "id": 149,
+        "marea": "POS-DOUBT",
+        "mareat": "(pos-doubt)(sales)",
+        "tuniq": "(pos-price-informations)",
+        "ttip": "Informações sobre o preço das máquinas e do Link de Pagamento"
+    },
+    {
+        "id": 150,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(authorization)",
+        "tuniq": "(auth-instability)",
+        "ttip": "Casos de instabilidade geral que afetam transações"
+    },
+    {
+        "id": 151,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(authorization)",
+        "tuniq": "(improper-charge)",
+        "ttip": "Usada para casos de cobrança indevida onde não houve desfazimento (venda denied, refunded, ou failed)"
+    },
+    {
+        "id": 152,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(authorization)",
+        "tuniq": "(denied-transaction-cardholder)",
+        "ttip": "Para casos onde o Cardholder vem falar conosco sobre não conseguir transacionar conosco (link/pos)"
+    },
+    {
+        "id": 153,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(authorization)",
+        "tuniq": "(denied-transaction-authorizer)",
+        "ttip": "Para vendas negadas pelo emissor e que não tenham uma tag própria"
+    },
+    {
+        "id": 154,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(authorization)",
+        "tuniq": "(error-63)(bank-related)",
+        "ttip": "Para vendas negadas pelo erro 63 onde o emissor está incluso na ação judicial"
+    },
+    {
+        "id": 155,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(connection)",
+        "tuniq": "(connection-issues)(chip)",
+        "ttip": "Para procedimentos de chip não necessariamente relacionados a um modelo de POS específico"
+    },
+    {
+        "id": 156,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(connection)",
+        "tuniq": "(chip-inactive)",
+        "ttip": "Para casos de chip inativo"
+    },
+    {
+        "id": 157,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(monitoring)",
+        "tuniq": "(denied-monitoring-pos)",
+        "ttip": "Para vendas negadas por risco que foram feitas pela POS"
+    },
+    {
+        "id": 158,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(monitoring)",
+        "tuniq": "(working-capital)",
+        "ttip": "Para casos de autofinanciamento"
+    },
+    {
+        "id": 159,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(monitoring)",
+        "tuniq": "(denied-monitoring-payment-link-web)",
+        "ttip": "Para vendas negadas por risco que foram feitas pelo link de pagamento web"
+    },
+    {
+        "id": 160,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(monitoring)",
+        "tuniq": "(denied-monitoring-payment-link)",
+        "ttip": "Para vendas negadas por risco que foram feitas pelo link de pagamento do app"
+    },
+    {
+        "id": 161,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(monitoring)",
+        "tuniq": "(denied-monitoring-ecommerce)",
+        "ttip": "Para vendas negadas por risco que foram feitas por ecommerce"
+    },
+    {
+        "id": 162,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(monitoring)",
+        "tuniq": "(sale-value-limit-amount)",
+        "ttip": "Para vendas negadas por limit amount"
+    },
+    {
+        "id": 163,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(monitoring)",
+        "tuniq": "(sale-value-limit-amount-analysis)",
+        "ttip": "Para solicitações de aumento de limit amount"
+    },
+    {
+        "id": 164,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(pix)",
+        "tuniq": "(pix-cashout-error)",
+        "ttip": "Para erros de transfer cashout de pix onde o EC já está validado"
+    },
+    {
+        "id": 165,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(pix)",
+        "tuniq": "(pix-cashin-error)",
+        "ttip": "Para erros de cash-ins de PIX"
+    },
+    {
+        "id": 166,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(pix)",
+        "tuniq": "(pix-key-issues)",
+        "ttip": "Para quando o EC tem problemas com a chave pix"
+    },
+    {
+        "id": 167,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(pos)",
+        "tuniq": "(card-transaction-issues)",
+        "ttip": "Problemas gerais com vendas por cartão presencial"
+    },
+    {
+        "id": 168,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(pos)",
+        "tuniq": "(nfc-issues)",
+        "ttip": "Problemas gerais com vendas por aproximação"
+    },
+    {
+        "id": 169,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(pos)",
+        "tuniq": "(p2)(connection-issues)(chip)(cw)",
+        "ttip": "Para casos de chip nano na P2"
+    },
+    {
+        "id": 170,
+        "marea": "SALES-ERROR",
+        "mareat": "(sales-error)(pos)",
+        "tuniq": "(transaction-reversal)",
+        "ttip": "Desfazimento"
+    },
+    {
+        "id": 171,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(app-features)",
+        "ttip": "Para dúvidas gerais de funções do app"
+    },
+    {
+        "id": 172,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(app-instability)",
+        "ttip": "Instabilidade no sistema do nosso aplicativo."
+    },
+    {
+        "id": 173,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(clear-data)",
+        "ttip": "Orientações de limpeza de cache do aplicativo."
+    },
+    {
+        "id": 174,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(internal-sales-report)",
+        "ttip": "Instruções de acesso ao relatório de vendas pelo aplicativo."
+    },
+    {
+        "id": 175,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(app-login-two-accounts)",
+        "ttip": "Instruções de como logar no mesmo cadastro em diferentes aparelhos"
+    },
+    {
+        "id": 176,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(payment-link-how-to-pay)",
+        "ttip": "Instruções sobre como pagar um link de pagamento (cardholder)"
+    },
+    {
+        "id": 177,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(payment-link-installment-information)",
+        "ttip": "Instruções sobre como alterar parcelas no link de pagamento"
+    },
+    {
+        "id": 178,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(payment-link-creation-tutorial)",
+        "ttip": "Instruções sobre como criar links de pagamento"
+    },
+    {
+        "id": 179,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(payment-link-app-informations)",
+        "ttip": "Instruções sobre como vender via Link de Pagamento (exceto gif)."
+    },
+    {
+        "id": 180,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(payment-link-limit-amount)",
+        "ttip": "Referente ao limite de R$10.000,00 do link de pagamento"
+    },
+    {
+        "id": 181,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(payment-link-security-tips)",
+        "ttip": "Relacionado às dicas de segurança dos links de pagamento"
+    },
+    {
+        "id": 182,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(app)(transaction-refund)",
+        "ttip": "Instruções de cancelamento de transação via app"
+    },
+    {
+        "id": 183,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(update-app)",
+        "ttip": "Instruções para atualização do nosso aplicativo"
+    },
+    {
+        "id": 184,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(password-registration)",
+        "ttip": "Para casos de criação da senha no nosso app"
+    },
+    {
+        "id": 185,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(infinitetap-tips)",
+        "ttip": "Para dúvidas do InfiniteTap. Atenção: somente o @cse-beta pode usar essa tag!"
+    },
+    {
+        "id": 186,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(app-login-forgot-number)",
+        "ttip": "Usada quando usuários esquecem o telefone registrado conosco"
+    },
+    {
+        "id": 187,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(app-how-to-login)",
+        "ttip": "Usado para quando ensinamos usuários a logar no aplicativo"
+    },
+    {
+        "id": 188,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(app-login-SMS-issue)",
+        "ttip": "Usado quando usuários tem dificuldades com o SMS relacionado ao login do app"
+    },
+    {
+        "id": 189,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(infinitetap)",
+        "ttip": "Tag geral para atendimentos do InfiniteTap"
+    },
+    {
+        "id": 190,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(mpos-security-crash)",
+        "ttip": "Para casos onde o nosso EC tem problemas com a última versão do app devido o status MPOS"
+    },
+    {
+        "id": 191,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(infinitetap)(fees)",
+        "ttip": "Para questões relacionadas às taxas aumentadas do InfiniteTap"
+    },
+    {
+        "id": 192,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(payment-link-creation-error) ",
+        "ttip": "Para quando há erros ao criar o link de pagamento"
+    },
+    {
+        "id": 193,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(payment-link-web)",
+        "ttip": "Atendimentos relacionados ao link de pagamento web"
+    },
+    {
+        "id": 194,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(payment-link-missing-transaction)",
+        "ttip": "Erro específico desde dia 5/11 relativo a vendas por payment link que não aparecem no CRM"
+    },
+    {
+        "id": 195,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(infinitetap)(phone-not-supported)",
+        "ttip": "Para telefones não suportados/sem NFC para o InfiniteTap"
+    },
+    {
+        "id": 196,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(infinitetap)(security-block)",
+        "ttip": "Bloqueio de segurança do InfiniteTap"
+    },
+    {
+        "id": 197,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(infinitetap)(general-informations)",
+        "ttip": "Informações e dúvidas gerais"
+    },
+    {
+        "id": 198,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(payment-link-web-informations)",
+        "ttip": "Para dúvidas sobre o link de pagamento web"
+    },
+    {
+        "id": 199,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(infinitetap)(ios-interest)",
+        "ttip": "Para clientes que usam iOS e tem interesse em serem notificados quando o InfiniteTap ser liberado para eles"
+    },
+    {
+        "id": 200,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(sales-mode)",
+        "ttip": "Para dúvidas gerais sobre a funcionalidade do modo convidado do app"
+    },
+    {
+        "id": 201,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(sales-mode-interest)",
+        "ttip": "Para clientes interessados no modo convidado do app"
+    },
+    {
+        "id": 202,
+        "marea": "SERVICES",
+        "mareat": "(services)(app)",
+        "tuniq": "(sales-mode-error)",
+        "ttip": "Para quando o cliente enfrenta erros no modo convidado do app"
+    },
+    {
+        "id": 203,
+        "marea": "SERVICES",
+        "mareat": "(services)(churn)",
+        "tuniq": "(blocked-wo-pos-reversal)",
+        "ttip": "Cliente bloqueado sem direito a coleta da POS e estorno."
+    },
+    {
+        "id": 204,
+        "marea": "SERVICES",
+        "mareat": "(services)(churn)",
+        "tuniq": "(churn-reason)",
+        "ttip": "Questionamento do motivo do pedido de cancelamento."
+    },
+    {
+        "id": 205,
+        "marea": "SERVICES",
+        "mareat": "(services)(churn)",
+        "tuniq": "(collect-denied)",
+        "ttip": "Coleta de POS negada."
+    },
+    {
+        "id": 206,
+        "marea": "SERVICES",
+        "mareat": "(services)(churn)",
+        "tuniq": "(repurchase-denied)",
+        "ttip": "Recompra de POS negada"
+    },
+    {
+        "id": 207,
+        "marea": "SERVICES",
+        "mareat": "(services)(churn)",
+        "tuniq": "(repurchase-interest)",
+        "ttip": "Cliente interessado no processo de recompra da POS"
+    },
+    {
+        "id": 208,
+        "marea": "SERVICES",
+        "mareat": "(services)(churn)",
+        "tuniq": "(repurchase-processed)",
+        "ttip": "Confirmação de recompra aprovada"
+    },
+    {
+        "id": 209,
+        "marea": "SERVICES",
+        "mareat": "(services)(dirf)",
+        "tuniq": "(dirf-generate)",
+        "ttip": "Instruções de como gerar a DIRF em nosso aplicativo (exceto gif)"
+    },
+    {
+        "id": 210,
+        "marea": "SERVICES",
+        "mareat": "(services)(dirf)",
+        "tuniq": "(dirf-informations)",
+        "ttip": "Detalhamento do que é e para que serve a DIRF."
+    },
+    {
+        "id": 211,
+        "marea": "SERVICES",
+        "mareat": "(services)(ecommerce)",
+        "tuniq": "(ecommerce-queue)",
+        "ttip": "Encaminhamento de chat para a fila de e-commerce"
+    },
+    {
+        "id": 212,
+        "marea": "SERVICES",
+        "mareat": "(services)(ecommerce)",
+        "tuniq": "(ecommerce-credentials)",
+        "ttip": "Para casos onde nosso cliente precisa de ajuda com as credenciais de ecommerce"
+    },
+    {
+        "id": 213,
+        "marea": "SERVICES",
+        "mareat": "(services)(ecommerce)",
+        "tuniq": "(supported-web-stores-informations)",
+        "ttip": "Para dúvidas gerais relacionadas aos portais de ecommerce que damos suporte"
+    },
+    {
+        "id": 214,
+        "marea": "SERVICES",
+        "mareat": "(services)(fees)",
+        "tuniq": "(fees-informations)",
+        "ttip": "Para informações gerais sobre nossas taxas"
+    },
+    {
+        "id": 215,
+        "marea": "SERVICES",
+        "mareat": "(services)(fees)",
+        "tuniq": "(fees-complaint)",
+        "ttip": "Para reclamações sobre nossas taxas"
+    },
+    {
+        "id": 216,
+        "marea": "SERVICES",
+        "mareat": "(services)(fees)",
+        "tuniq": "(fees-negotiation)",
+        "ttip": "Para tentativas de negociação das taxas"
+    },
+    {
+        "id": 217,
+        "marea": "SERVICES",
+        "mareat": "(services)(infinitecard)",
+        "tuniq": "(failed-infinitecard-transaction)",
+        "ttip": "Falha na transação do InfiniteCard"
+    },
+    {
+        "id": 218,
+        "marea": "SERVICES",
+        "mareat": "(services)(infinitecard)",
+        "tuniq": "(card-creation-error)",
+        "ttip": "Falha ao tentar criar o cartão (emissão/Issuing)"
+    },
+    {
+        "id": 219,
+        "marea": "SERVICES",
+        "mareat": "(services)(infinitecard)",
+        "tuniq": "(additional-card-info)",
+        "ttip": "Duvidas sobre cartões adicionais"
+    },
+    {
+        "id": 220,
+        "marea": "SERVICES",
+        "mareat": "(services)(infinitecard)",
+        "tuniq": "(infinitecard-chargeback)",
+        "ttip": "Contestação de transação no InfiniteCard (chargeback)"
+    },
+    {
+        "id": 221,
+        "marea": "SERVICES",
+        "mareat": "(services)(infinitecard)",
+        "tuniq": "(infinitecard-feedback)",
+        "ttip": "Para contatos proativos sobre feedback de issuing"
+    },
+    {
+        "id": 222,
+        "marea": "SERVICES",
+        "mareat": "(services)(infinitecard)",
+        "tuniq": "(infinitecard-informations)",
+        "ttip": "Para informações gerais do InfiniteCard"
+    },
+    {
+        "id": 223,
+        "marea": "SERVICES",
+        "mareat": "(services)(infinitecard)",
+        "tuniq": "(infinitecard)(cashback)",
+        "ttip": "Para questões relacionadas ao nosso novo cashback de 1.5%"
+    },
+    {
+        "id": 224,
+        "marea": "SERVICES",
+        "mareat": "(services)(infinitecard)",
+        "tuniq": "(card-tokenization-error)",
+        "ttip": "Para quando há falha ao tokenizar o cartão (Google wallet/Apple pay)"
+    },
+    {
+        "id": 225,
+        "marea": "SERVICES",
+        "mareat": "(services)(infinitecard)",
+        "tuniq": "(card-block)",
+        "ttip": "Solicitação ou questionamentos sobre bloqueios do InfiniteCard"
+    },
+    {
+        "id": 226,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(card-brands)",
+        "ttip": "Dúvidas sobre as bandeiras de cartão aceitas."
+    },
+    {
+        "id": 227,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(contract-link)",
+        "ttip": "Envio do link do nosso Contrato de Afiliação"
+    },
+    {
+        "id": 228,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(service-channels)",
+        "ttip": "Dúvidas sobre nossos canais de atendimento"
+    },
+    {
+        "id": 229,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(site-informations)",
+        "ttip": "Para dúvidas relacionadas ao nosso site"
+    },
+    {
+        "id": 230,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(transaction-informations)",
+        "ttip": "Para qualquer dúvida relacionada com transações no geral"
+    },
+    {
+        "id": 231,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(customer-suggestion)",
+        "ttip": "Para clientes nossos que sugerem funções e indicamos o site de feedback"
+    },
+    {
+        "id": 232,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(legal-documents)",
+        "ttip": "Para casos de recepção de documentos referentes a casos legais ou ofícios"
+    },
+    {
+        "id": 233,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(black-friday-2022-information)",
+        "ttip": "Dúvidas sobre participação e regulamentação da promoção de Black Friday 2022"
+    },
+    {
+        "id": 234,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(suggestion-infinitecard)",
+        "ttip": "Usado pelo Rangel para mapeamento de sugestões"
+    },
+    {
+        "id": 235,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(suggestion-app)",
+        "ttip": "Usado pelo Rangel para mapeamento de sugestões"
+    },
+    {
+        "id": 236,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(suggestion-cse)",
+        "ttip": "Usado pelo Rangel para mapeamento de sugestões"
+    },
+    {
+        "id": 237,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(suggestion-lending)",
+        "ttip": "Usado pelo Rangel para mapeamento de sugestões"
+    },
+    {
+        "id": 238,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(suggestion-fees)",
+        "ttip": "Usado pelo Rangel para mapeamento de sugestões"
+    },
+    {
+        "id": 239,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(suggestion-pos)",
+        "ttip": "Usado pelo Rangel para mapeamento de sugestões"
+    },
+    {
+        "id": 240,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(suggestion-sales)",
+        "ttip": "Usado pelo Rangel para mapeamento de sugestões"
+    },
+    {
+        "id": 241,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(suggestion-dashboard)",
+        "ttip": "Usado pelo Rangel para mapeamento de sugestões"
+    },
+    {
+        "id": 242,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(suggestion-services)",
+        "ttip": "Usado pelo Rangel para mapeamento de sugestões"
+    },
+    {
+        "id": 243,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(suggestion-ecommerce)",
+        "ttip": "Usado pelo Rangel para mapeamento de sugestões"
+    },
+    {
+        "id": 244,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(suggestion-user-experience)",
+        "ttip": "Usado pelo Rangel para mapeamento de sugestões"
+    },
+    {
+        "id": 245,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(suggestion-card-brand)",
+        "ttip": "Usado pelo Rangel para mapeamento de sugestões"
+    },
+    {
+        "id": 246,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(blockchain-instability)",
+        "ttip": "Para casos onde a Blockchain passar por instabilidades que afetam nossos serviços"
+    },
+    {
+        "id": 247,
+        "marea": "SERVICES",
+        "mareat": "(services)(informations)",
+        "tuniq": "(fake-infinitepay-profile)",
+        "ttip": "Para quando clientes entram em contato conosco referente aos perfis falsos da Empresa em outros aplicativos"
+    },
+    {
+        "id": 248,
+        "marea": "SERVICES",
+        "mareat": "(services)(lending)",
+        "tuniq": "(deadline-details)",
+        "ttip": "Cliente com dúvidas sobre o prazo de pagamento do empréstimo."
+    },
+    {
+        "id": 249,
+        "marea": "SERVICES",
+        "mareat": "(services)(lending)",
+        "tuniq": "(lending-informations)",
+        "ttip": "Cliente solicitando informações sobre o empréstimo inteligente"
+    },
+    {
+        "id": 250,
+        "marea": "SERVICES",
+        "mareat": "(services)(lending)",
+        "tuniq": "(lending-instability)",
+        "ttip": "Instabilidade no sistema de empréstimo inteligente."
+    },
+    {
+        "id": 251,
+        "marea": "SERVICES",
+        "mareat": "(services)(lending)",
+        "tuniq": "(lending-interest)",
+        "ttip": "Cliente mencionando interesse em contratar o empréstimo inteligente"
+    },
+    {
+        "id": 252,
+        "marea": "SERVICES",
+        "mareat": "(services)(lending)",
+        "tuniq": "(excessive-discount)",
+        "ttip": "Casos onde o Autopilot cobra valores a mais do cliente"
+    },
+    {
+        "id": 253,
+        "marea": "SERVICES",
+        "mareat": "(services)(lending)",
+        "tuniq": "(autopilot-payment-error)",
+        "ttip": "Casos onde há erro na hora de pagar os valores do Autopilot"
+    },
+    {
+        "id": 254,
+        "marea": "SERVICES",
+        "mareat": "(services)(lending)",
+        "tuniq": "(market1-unavailable)",
+        "ttip": "Para casos de lending onde um cliente que antes tinha acesso ao empréstimo agora não tem, pois está em Market 1"
+    },
+    {
+        "id": 255,
+        "marea": "SERVICES",
+        "mareat": "(services)(lending)",
+        "tuniq": "(lending-deadletter)",
+        "ttip": "Para casos onde o EC está em deadletter, sem acesso ao lending"
+    },
+    {
+        "id": 256,
+        "marea": "SERVICES",
+        "mareat": "(services)(lending)",
+        "tuniq": "(sent-to-cerc)",
+        "ttip": "Usada para casos onde enviamos nosso cliente para a CERC devido lendings em atraso"
+    },
+    {
+        "id": 257,
+        "marea": "SERVICES",
+        "mareat": "(services)(lending)",
+        "tuniq": "(failed-lending-pix-payment)",
+        "ttip": "Para casos de falhas de pagamento de lending relacionados ao QR code/PIX do app"
+    },
+    {
+        "id": 258,
+        "marea": "SERVICES",
+        "mareat": "(services)(monitoring)",
+        "tuniq": "(chrome-permission)",
+        "ttip": "Cliente com dificuldade em fazer a validação de identidade devido às permissões do navegador Chrome."
+    },
+    {
+        "id": 259,
+        "marea": "SERVICES",
+        "mareat": "(services)(phone-support)",
+        "tuniq": "(nps-no-return)",
+        "ttip": "Chat aberto após insucesso no contato telefônico do NPS."
+    },
+    {
+        "id": 260,
+        "marea": "SERVICES",
+        "mareat": "(services)(phone-support)",
+        "tuniq": "(ombudsman-contact)",
+        "ttip": "Atendimentos encaminhados para a Ouvidoria"
+    },
+    {
+        "id": 261,
+        "marea": "SERVICES",
+        "mareat": "(services)(phone-support)",
+        "tuniq": "(restricted-access)",
+        "ttip": "Explicando ao cliente que a Central Telefônica ainda está restrita devido à fase de testes"
+    },
+    {
+        "id": 262,
+        "marea": "SERVICES",
+        "mareat": "(services)(phone-support)",
+        "tuniq": "(proactive-phone-contact)",
+        "ttip": "Usada quando ligamos proativamente para um cliente"
+    },
+    {
+        "id": 263,
+        "marea": "SERVICES",
+        "mareat": "(services)(receivables)",
+        "tuniq": "(promo-xmas-challenge)",
+        "ttip": "Para casos referentes à promoção de indicação natalina"
+    },
+    {
+        "id": 264,
+        "marea": "SERVICES",
+        "mareat": "(services)(receivables)",
+        "tuniq": "(referral-program)",
+        "ttip": "Para qualquer assunto relacionado ao sistema de referral"
+    },
+    {
+        "id": 265,
+        "marea": "SERVICES",
+        "mareat": "(services)(rewards)",
+        "tuniq": "(nft-informations)",
+        "ttip": "Informações sobre NFTs"
+    },
+    {
+        "id": 266,
+        "marea": "SERVICES",
+        "mareat": "(services)(rewards)",
+        "tuniq": "(nft-rewards)",
+        "ttip": "Informações sobre o sistema de cashback de NFTs da CW"
+    },
+    {
+        "id": 267,
+        "marea": "SERVICES",
+        "mareat": "(services)(web)",
+        "tuniq": "(dash-information)",
+        "ttip": "Tag para informações referentes a dashboard web."
+    },
+    {
+        "id": 268,
+        "marea": "SERVICES",
+        "mareat": "(services)(web)",
+        "tuniq": "(dash-sales-report)",
+        "ttip": "Informações sobre o relatório de vendas exportado da Dashboard"
+    },
+    {
+        "id": 269,
+        "marea": "SERVICES",
+        "mareat": "(services)(web)",
+        "tuniq": "(dash-login-issues)",
+        "ttip": "Problemas no login da Dashboard (control room)"
+    },
+    {
+        "id": 270,
+        "marea": "SERVICES",
+        "mareat": "(services)(web)",
+        "tuniq": "(dash-cnpj-exchange)",
+        "ttip": "Para quando ensinamos um EC a fazer a troca de titularidade pela dash web"
+    },
+    {
+        "id": 271,
+        "marea": "SERVICES",
+        "mareat": "(services)(web)",
+        "tuniq": "(dash-pos-deactivation)",
+        "ttip": "Para quando ensinamos um EC a fazer a desativação de POS pela dash web"
+    },
+    {
+        "id": 272,
+        "marea": "SERVICES",
+        "mareat": "(services)(web)",
+        "tuniq": "(dash-QR-code-print)",
+        "ttip": "Para quando ensinamos nossos ECs a imprimir o QR code que geramos pela dash web"
+    },
+    {
+        "id": 273,
+        "marea": "SERVICES",
+        "mareat": "(services)(web)",
+        "tuniq": "(payment-link-web-denied)",
+        "ttip": "Para quando uma tentativa de pagamento pelo Link web é negada"
+    },
+    {
+        "id": 274,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(cerc)",
+        "tuniq": "(cerc-plea)",
+        "ttip": "Abertura de contestação de CERC"
+    },
+    {
+        "id": 275,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(cerc)",
+        "tuniq": "(cerc-informations)",
+        "ttip": "Informações e dúvidas sobre a CERC"
+    },
+    {
+        "id": 276,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(chargeback)",
+        "tuniq": "(chargeback-informations)",
+        "ttip": "Informações gerais sobre chargeback que não se enquadrem nas demais tags dessa categoria."
+    },
+    {
+        "id": 277,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(chargeback)",
+        "tuniq": "(dispute-documents-app)",
+        "ttip": "Instruções para abertura de disputa de chargeback via app"
+    },
+    {
+        "id": 278,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(chargeback)",
+        "tuniq": "(fraudulent-transaction-chargeback)",
+        "ttip": "Cliente que sofreu chargeback de tipo fraude"
+    },
+    {
+        "id": 279,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(chargeback)",
+        "tuniq": "(payment-link-safety-tips)",
+        "ttip": "Dicas para o cliente se precaver contra chargebacks em vendas via link."
+    },
+    {
+        "id": 280,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(chargeback)",
+        "tuniq": "(cbk-payment-methods)",
+        "ttip": "Dúvidas sobre como pagar um chargeback"
+    },
+    {
+        "id": 281,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(chargeback)",
+        "tuniq": "(dispute-documents-request)",
+        "ttip": "Para casos onde solicitamos documentação para disputa de CBK para o EC no chat"
+    },
+    {
+        "id": 282,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(chargeback)",
+        "tuniq": "(payment-link-cardholder-chargeback)",
+        "ttip": "Para quando o cardholder entra em contato conosco por problemas com sua compra em um merchant nosso"
+    },
+    {
+        "id": 283,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(chargeback)",
+        "tuniq": "(pix-infraction)",
+        "ttip": "Para casos de Pix Infractions"
+    },
+    {
+        "id": 284,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(collection)",
+        "tuniq": "(collection-negotiation)",
+        "ttip": "Encaminhamento de tratativa de cobrança para parceira externa para negociação de valores"
+    },
+    {
+        "id": 285,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(collection)",
+        "tuniq": "(collection-receipt)",
+        "ttip": "Comprovante/recibo de pagamento referente a billing"
+    },
+    {
+        "id": 286,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(collection)",
+        "tuniq": "(pending-billing-informations)",
+        "ttip": "Informações sobre uma billing específica e como quitá-la"
+    },
+    {
+        "id": 287,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(collection)",
+        "tuniq": "(pending-billing-leader)",
+        "ttip": "Informações sobre a parceira de cobrança Leader"
+    },
+    {
+        "id": 288,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(collection)",
+        "tuniq": "(pending-billing-meireles)",
+        "ttip": "Informações sobre a parceira de cobrança Meireles e Freitas"
+    },
+    {
+        "id": 289,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(homebanking)",
+        "tuniq": "(homebank-receivables)",
+        "ttip": "Duvidas sobre recebiveis em BRLC ou Homebanking"
+    },
+    {
+        "id": 290,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(homebanking)",
+        "tuniq": "(delayed-minting)",
+        "ttip": "Para casos onde a mintagem dos BRLCs atrasa, deixando a transfer como success mas o valor indisponível"
+    },
+    {
+        "id": 291,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(homebanking)",
+        "tuniq": "(opt-in-request)",
+        "ttip": "Solicitação de entrada no homebanking"
+    },
+    {
+        "id": 292,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(homebanking)",
+        "tuniq": "(opt-out-request)",
+        "ttip": "Solicitação de remoção do homebanking"
+    },
+    {
+        "id": 293,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(homebanking)",
+        "tuniq": "(hb-payment-delay)",
+        "ttip": "Reclamações de atrasos em pagamentos no homebanking"
+    },
+    {
+        "id": 294,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(homebanking)",
+        "tuniq": "(hb-receivables-dispute)",
+        "ttip": "Quando o cliente questiona o valor recebido na transferência, dizendo que está errado"
+    },
+    {
+        "id": 295,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(homebanking)",
+        "tuniq": "(hb-receivables-informations)",
+        "ttip": "Informações gerais de recebimento no homebanking"
+    },
+    {
+        "id": 296,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(homebanking)",
+        "tuniq": "(bank-slip-error)",
+        "ttip": "Para clientes com problemas no sistema de Boletos da nossa conta digital"
+    },
+    {
+        "id": 297,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(homebanking)",
+        "tuniq": "(bank-slip-informations)",
+        "ttip": "Para informações/dúvidas gerais sobre o pagamento de boletos pelo nosso homebanking"
+    },
+    {
+        "id": 298,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(business-validation-information)",
+        "ttip": "Solicitação de detalhes do estabelecimento para validação de negócio."
+    },
+    {
+        "id": 299,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(cardholder-blocked-reason)",
+        "ttip": "Explicação bloqueio de CardHolder."
+    },
+    {
+        "id": 300,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(cardholder-blocked)",
+        "ttip": "Informações sobre bloqueio de conta de cardholder."
+    },
+    {
+        "id": 301,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(transfer-monitoring)",
+        "ttip": "Atendimento sendo encaminhado para monitoring"
+    },
+    {
+        "id": 302,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-loading-loop)",
+        "ttip": "Instruções para resolução de tela travada durante validação da UNICO"
+    },
+    {
+        "id": 303,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-validation-denied)",
+        "ttip": "Atendimento sendo encaminhado para fila de UNICO denied"
+    },
+    {
+        "id": 304,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-validation-resent)",
+        "ttip": "Reenvio de link de validação da UNICO"
+    },
+    {
+        "id": 305,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-validation-tips)",
+        "ttip": "Dicas para facilitar validação de identidade via UNICO"
+    },
+    {
+        "id": 306,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-validation)",
+        "ttip": "Instruções para validação de identidade da UNICO que temos no app"
+    },
+    {
+        "id": 307,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(withdraw-locked-business-validation)",
+        "ttip": "Questões referentes a recebimentos e antecipação"
+    },
+    {
+        "id": 308,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(withdraw-locked-cardholder)",
+        "ttip": "Informações sobre bloqueio de recebíveis e respaldo contratual para o mesmo"
+    },
+    {
+        "id": 309,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(withdraw-locked-information)",
+        "ttip": "Informações sobre bloqueio de recebíveis e respaldo contratual para o mesmo"
+    },
+    {
+        "id": 310,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-manual-validation-denied)",
+        "ttip": "(Fila UNICO) Quando negamos um EC por validação manual"
+    },
+    {
+        "id": 311,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-manual-validation-approved)",
+        "ttip": "(Fila UNICO) Quando aprovamos um EC por validação manual"
+    },
+    {
+        "id": 312,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-reschedule)",
+        "ttip": "(Fila UNICO) Reagendamento de meet UNICO"
+    },
+    {
+        "id": 313,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-video-completed)",
+        "ttip": "(Fila UNICO) Vídeo do meet da UNICO corretamente processado"
+    },
+    {
+        "id": 314,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-validation-resent-approved)",
+        "ttip": "(Fila UNICO) Validação reenviada com EC approved"
+    },
+    {
+        "id": 315,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-RL-divergent)",
+        "ttip": "(Fila UNICO) RL divergente"
+    },
+    {
+        "id": 316,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-doc-request)",
+        "ttip": "(Fila UNICO) Requisição de documentos"
+    },
+    {
+        "id": 317,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-waiting-appointment)",
+        "ttip": "(Fila UNICO) Aguardando agendamento"
+    },
+    {
+        "id": 318,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-waiting-return)",
+        "ttip": "(Fila UNICO) Aguardando retorno do EC"
+    },
+    {
+        "id": 319,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-manual-validation-ok)",
+        "ttip": "(Fila UNICO) Validação manual iniciada"
+    },
+    {
+        "id": 320,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(UNICO-scheduled)",
+        "ttip": "(Fila UNICO) Validação agendada"
+    },
+    {
+        "id": 321,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(monitoring)",
+        "tuniq": "(merchant-blocked-insist)",
+        "ttip": "Para ECs que insistem em chats sobre descredenciamento, até o ponto onde podemos encerrar o chat"
+    },
+    {
+        "id": 322,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(pix)",
+        "tuniq": "(brlc-informations)",
+        "ttip": "Dúvidas gerais sobre BRLC, exceto sobre como fazer transferência."
+    },
+    {
+        "id": 323,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(pix)",
+        "tuniq": "(brlc-transfer-guide)",
+        "ttip": "Dúvida sobre como realizar transferência de BRLC."
+    },
+    {
+        "id": 324,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(pix)",
+        "tuniq": "(brlc-transfer-informations)",
+        "ttip": "Dúvidas sobre uma transferência de BRLC."
+    },
+    {
+        "id": 325,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(pix)",
+        "tuniq": "(pix-cashin-guide)",
+        "ttip": "Cliente pede orientações sobre como fazer um Pix para a InfiniteWallet"
+    },
+    {
+        "id": 326,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(pix)",
+        "tuniq": "(pix-receipt)",
+        "ttip": "Questões envolvendo recibo de transações Pix"
+    },
+    {
+        "id": 327,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(peac-maquininhas)",
+        "ttip": "Explicação do programa PEAC Maquininhas."
+    },
+    {
+        "id": 328,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(cip-explanation)",
+        "ttip": "Explicação do que é a CIP."
+    },
+    {
+        "id": 329,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(cip)",
+        "ttip": "Instabilidade na liquidação de recebíveis por problemas na CIP."
+    },
+    {
+        "id": 330,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(d30-information)",
+        "ttip": "Cliente interessado em aderir ao programa de não antecipação"
+    },
+    {
+        "id": 331,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(d30-interested)",
+        "ttip": "Cliente interessado em aderir ao programa de não antecipação"
+    },
+    {
+        "id": 332,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(payment-delayed-error-cw)",
+        "ttip": "Pagamento em atraso que consta com erro em nosso sistema devido a questões internas (falha da CW)"
+    },
+    {
+        "id": 333,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(payment-delayed-error)",
+        "ttip": "Pagamento em atraso que consta com erro em nosso sistema devido a questões externas (falha do banco)"
+    },
+    {
+        "id": 334,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(payment-delayed-pending)",
+        "ttip": "Pagamento em atraso que consta como pendente em nosso sistema"
+    },
+    {
+        "id": 335,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(payment-delayed-success)",
+        "ttip": "Pagamento em atraso que consta como sucesso em nosso sistema"
+    },
+    {
+        "id": 336,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(payment-instability)",
+        "ttip": "Instabilidade na liquidação de recebíveis por problemas internos"
+    },
+    {
+        "id": 337,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(split-payment)",
+        "ttip": "Explicação do modelo de pagamento fracionado"
+    },
+    {
+        "id": 338,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(receivables-informations)",
+        "ttip": "Informações gerais sobre os valores de recebimento."
+    },
+    {
+        "id": 339,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(cpf-account-transfer)",
+        "ttip": "Transferência para conta PF"
+    },
+    {
+        "id": 340,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(payment-delayed-in-transfer)",
+        "ttip": "Pagamentos em atraso que ainda não tem transfer gerada, mas aparecem como \"To be made available today\""
+    },
+    {
+        "id": 341,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(receiving-via-ted)",
+        "ttip": "Para casos onde o EC está recebendo seus valores via TED"
+    },
+    {
+        "id": 342,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(receivables-dispute) ",
+        "ttip": "Quando o cliente questiona o valor recebido na transferência, dizendo que está errado"
+    },
+    {
+        "id": 343,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(payment-delay)",
+        "ttip": "Quando o cliente reclama na demora dos pagamentos, mas que é resolvido em pouco tempo. Pode ser algo de risco, erro geral ou falha de pagamento"
+    },
+    {
+        "id": 344,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(payment-time)",
+        "ttip": "Quando o cliente solicita pagamentos mais cedo, reclamando do horário padrão"
+    },
+    {
+        "id": 345,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(spot-anticipation)",
+        "ttip": "Para atendimentos gerais relacionados ao Spot anticipation"
+    },
+    {
+        "id": 346,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(d0-information)",
+        "ttip": "cliente com dúvidas sobre funcionamento geral do programa d+0 de antecipação"
+    },
+    {
+        "id": 347,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(d0-interested)",
+        "ttip": "cliente interessado em aderir ao programa d+0 de antecipação"
+    },
+    {
+        "id": 348,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(d0-payment-delay)",
+        "ttip": "quando o cliente reclama na demora dos pagamentos, mas que é resolvido em pouco tempo. Pode ser algo de risco, erro geral ou falha de pagamento"
+    },
+    {
+        "id": 349,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(d0-payment-instability)",
+        "ttip": "Instabilidade na liquidação de recebíveis por problemas internos"
+    },
+    {
+        "id": 350,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(spot-anticipation-request)",
+        "ttip": "Para ECs que querem aderir ao Spot Anticipation"
+    },
+    {
+        "id": 351,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(spot-anticipation-value-availability)",
+        "ttip": "Questionamentos relacionados à disponibilidade de valores/vendas para antecipação via Spot"
+    },
+    {
+        "id": 352,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(spot-anticipation-error)",
+        "ttip": "Para erros ao antecipar vendas pelo app"
+    },
+    {
+        "id": 353,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(spot-anticipation-informations)",
+        "ttip": "Informações gerais do Spot Anticipation"
+    },
+    {
+        "id": 354,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(spot-anticipation-status-error)",
+        "ttip": "Quando o status da antecipação aparece como liquidado, mas não houve depósito referente"
+    },
+    {
+        "id": 355,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(d0-email-interested)",
+        "ttip": "Para clientes que receberam o Push do dia 06/12 e retornaram com interesse no plano D0"
+    },
+    {
+        "id": 356,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(legally-blocked-receivables)",
+        "ttip": "Para clientes com valores bloqueados devido alguma ação judicial"
+    },
+    {
+        "id": 357,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(duplicate-payment-transfer)",
+        "ttip": "Para casos onde o cliente recebeu uma transfer nossa de forma duplicada"
+    },
+    {
+        "id": 358,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(d0-unqualified)",
+        "ttip": "Para clientes que são inaptos ao plano D0"
+    },
+    {
+        "id": 359,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(d0-pending-risk)",
+        "ttip": "Para clientes que estão aguardando análise de risco para entrada no D0"
+    },
+    {
+        "id": 360,
+        "marea": "WITHDRAWS",
+        "mareat": "(withdraws)(receivables)",
+        "tuniq": "(d0-removal)",
+        "ttip": "Para clientes que querem sair do plano D+0"
+    },
+    {
+        "id": 361,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(social-media-inquiry)",
+        "ttip": "Dúvidas relacionadas ao time Myriads, de mídias"
+    },
+    {
+        "id": 362,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(general-rating)",
+        "ttip": "Solicitação para que o aplicativo seja avaliado pelo EC, sem especificação da plataforma."
+    },
+    {
+        "id": 363,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(googleplay-rating)",
+        "ttip": "Solicitação para que o aplicativo seja avaliado pelo EC, especificamente para a plataforma da Google Play."
+    },
+    {
+        "id": 364,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(appstore-rating)",
+        "ttip": "Solicitação para que o aplicativo seja avaliado pelo EC, especificamente para a plataforma da AppStore."
+    },
+    {
+        "id": 365,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(no-subject)",
+        "ttip": "Use com cuidado! Tag para chats onde o EC não deixa o assunto/problema claro e não retorna"
+    },
+    {
+        "id": 366,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(problem-solved)",
+        "ttip": "Tag de controle para teste no chat"
+    },
+    {
+        "id": 367,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(ra-closure-evaluation)",
+        "ttip": "(Exclusivo do RA) Para finalizações de tickets do RA onde pedimos a avaliação"
+    },
+    {
+        "id": 368,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(internal-WF)(address-exchg)",
+        "ttip": "Tag usada apenas aos Finais de semana, para analistas liberados"
+    },
+    {
+        "id": 369,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(internal-WF)(DO-status)",
+        "ttip": "Tag usada apenas aos Finais de semana, para analistas liberados"
+    },
+    {
+        "id": 370,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(internal-WF)(other-problems)",
+        "ttip": "Tag usada apenas aos Finais de semana, para analistas liberados"
+    },
+    {
+        "id": 371,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(internal-WF)(P2-issues)",
+        "ttip": "Tag usada apenas aos Finais de semana, para analistas liberados"
+    },
+    {
+        "id": 372,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(internal-WF)(pix)",
+        "ttip": "Tag usada apenas aos Finais de semana, para analistas liberados"
+    },
+    {
+        "id": 373,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(internal-WF)(POS-Display)",
+        "ttip": "Tag usada apenas aos Finais de semana, para analistas liberados"
+    },
+    {
+        "id": 374,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(internal-WF)(S920-issues)",
+        "ttip": "Tag usada apenas aos Finais de semana, para analistas liberados"
+    },
+    {
+        "id": 375,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(internal-WF)(X990-issues)",
+        "ttip": "Tag usada apenas aos Finais de semana, para analistas liberados"
+    },
+    {
+        "id": 376,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(internal-WF)(Wifi-Connection)",
+        "ttip": "Tag usada apenas aos Finais de semana, para analistas liberados"
+    },
+    {
+        "id": 377,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(fim-de-turno)",
+        "ttip": "Para quando fazemos a mass action de enviar chats pro dia seguinte"
+    },
+    {
+        "id": 378,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(risk-compliance)",
+        "ttip": "Tag especial de uso de outro time. Favor não usar"
+    },
+    {
+        "id": 379,
+        "marea": "STANDALONE",
+        "mareat": "--",
+        "tuniq": "(nap-fees-pending-answer)",
+        "ttip": "(Tag de controle) Para clientes NAP aguardando informação sobre aumento de taxas"
+    }
+]
